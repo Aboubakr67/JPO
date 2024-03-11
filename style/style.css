@@ -1,0 +1,363 @@
+.centrage {text-align: center;}
+
+#img-center
+{
+    text-align: center;
+    margin: 0%;
+}
+
+p {
+  margin-top: 0px;
+}
+
+hr {
+	opacity: 0%;
+}
+
+#fieldset {
+  margin-bottom: 10px;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-bottom: 10px;
+}
+
+#fieldsetRadio {
+	border: none;
+	margin-bottom: 10px;
+}
+#fieldsetRadio:last-of-type {
+	margin-bottom: 0;
+}
+
+#radiobuttons {
+	padding: 0px;
+	width: 100%;
+	border: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  }
+
+#radiobuttons ol li {
+	list-style: none;
+  }
+
+#radiobuttons label {
+	width: auto;
+}
+
+#radiobuttons input[type=radio] {
+	margin-right: 10px;
+}
+
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+ 
+label {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+input {
+	height: 25px;
+}
+
+input:focus {
+	background: #eaeaea;
+}
+ 
+input[type="radio"]:hover, input[type="submit"]:hover {
+	cursor: pointer;
+}
+
+textarea {
+  height: 50px;
+  width: 100%;
+  resize: none;
+}
+ 
+select {
+	width: 30%;
+	height: 25px;
+}
+ 
+input[type=radio] {
+  width: 17.5px;
+  margin-right: 0px;
+}
+ 
+input[type=submit] {
+  height: 25px;
+  appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    color: buttontext;
+    padding: 1px 6px;
+}
+
+input[type=submit]:focus {
+	border-width: 1px;
+    border-style:solid;
+}
+
+body, html {
+	height: 100%;
+	margin: 0%;
+	padding: 0%;
+	font-family: 'Lato',sans-serif;
+    line-height: 18px;
+    color: #727d86;
+    background-color: #fff;
+	
+}
+
+body {
+	display : table;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather',serif;
+    color: #525c66;
+	font-weight: bold;
+    /*position: relative;*/
+	text-transform: uppercase;
+}
+
+strong {
+	font-weight: bold; 
+}
+
+
+table {
+	/* background: #f5f5f5; */
+	border-collapse: collapse;
+	border-width: 5px;
+	border-color: white;
+	/* box-shadow: inset 0 1px 0 #fff; */
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	/* border: 1px solid black; */
+}
+
+#tableau {
+	/* background: #f5f5f5; */
+	border-collapse: separate;
+	/* box-shadow: inset 0 1px 0 #fff; */
+	text-align: center;
+	margin-left: 2.5%;
+	margin-right: -2.5%;
+	width: 95%;
+	font-size: 12px;
+	/* border: 1px solid black; */
+}
+
+/* td {
+	border: 1px solid green;
+} */
+
+/* th {
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+	border-left: 1px solid #555;
+	border-right: 1px solid #777;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #333;
+	box-shadow: inset 0 1px 0 #999;
+	color: #fff;
+    font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;
+	font-size: 16px;
+} */
+
+th {
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#272e36, #111);
+	border-left: 1px solid #333;
+	border-right: 1px solid #555;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #111;
+	box-shadow: inset 0 1px 0 #777;
+	color: #fff;
+    font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 2px 2px 2px #000;
+}
+
+
+/* th:first-child {
+	border-left: 1px solid #777;	
+	box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+	box-shadow: inset -1px 1px 0 #999;
+} */
+
+td {
+	/* padding: 10px 15px; */
+	position: relative;
+	transition: all 300ms;
+}
+
+td:first-child {
+	box-shadow: inset 1px 0 0 rgb(255, 255, 255);
+}	
+
+td:last-child {
+	border-right: 1px solid #e8e8e8;
+	box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr {
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:nth-child(odd) td {
+	background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:last-of-type td {
+	box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+	box-shadow: inset 1px -1px 0 #fff;
+}	
+
+tr:last-of-type td:last-child {
+	box-shadow: inset -1px -1px 0 #fff;
+}
+
+#cancel {
+	background: white;
+	box-shadow: white;
+	border-right: none;
+	
+}
+
+#formulaire {
+	text-align: center;
+}
+
+#tableForm {
+	/* border: 1px solid #333; */
+	width: 100%;
+}
+
+#piedPage {
+	color: #fff;
+	font-family: 'Comfortaa';
+	font-style: normal;
+  	font-weight: 1;
+	text-align: left;
+	width: 100%;
+}
+
+#piedPageAdresse {
+	color: #f67c1a;
+    font: 300 23px/23px 'Merriweather',serif;
+    /* margin-bottom: 26px; */
+	clear: both;
+    font-size: 20px;
+    /* line-height: 36px; */
+    margin-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#piedPageTotal {
+	height: auto;
+    position: relative;
+    bottom: 0px;
+}
+
+
+#menuHaut
+{
+    text-decoration: none;
+	
+}
+
+#menuCentre
+{
+	width: 33%;
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#a60000, rgb(87, 0, 0));
+}
+
+#menuHaut:link, #menuHaut:visited, #menuHaut:focus {
+    color: white;
+	font-style: italic;
+  }
+  
+#menuHaut:hover {
+    background: #b70000;
+}
+  
+#menuHaut:active {
+    background: #344648;
+    color: white;
+}
+
+.parent {
+	height: 20em; /* hauteur du parent */
+	line-height: 20em; /* hauteur de ligne (identique) */
+	white-space: nowrap; /* interdiction de passer à la ligne */
+}
+
+.element {
+	margin-top: 37.6vh; /* poussé de la moitié de hauteur de viewport */
+	transform: translateY(-125%); /* tiré de la moitié de sa propre hauteur */
+  }
+
+.elementStats {
+	margin-top: 29.1vh; /* poussé de la moitié de hauteur de viewport */
+	transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.elementAccueil {
+	margin-top: -0.75vh; /* poussé de la moitié de hauteur de viewport */
+	transform: translateY(-0%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.elementResultat {
+	margin-top: -0.4vh; /* poussé de la moitié de hauteur de viewport */
+	transform: translateY(-0%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+	width: 940px;
+}
+
+.row {
+    margin-left: -20px;
+}
+
+.span12 {
+    width: 940px;
+}
+
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+}
